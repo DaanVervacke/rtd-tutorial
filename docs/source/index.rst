@@ -11,3 +11,5 @@ Contents
 .. toctree::
 
    ha
+   esphome
+   pyscript
