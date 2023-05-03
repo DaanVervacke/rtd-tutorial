@@ -28,10 +28,9 @@ This guide requires basic knowledge about:
 .. note::
 
    **Prerequisites**
+
    This guide assumes that you already have an operating system setup and a container runtime installed (like Docker).
-   If you are using Docker then you need to be on at least version 19.03.9, ideally an even higher version, and libseccomp 2.4.2 or newer.
-
-
+   
 It's recommend to follow the table of contents order, **step by step**.
 
 .. _maincontents:
