@@ -1,5 +1,5 @@
-Pyscript
-========
+Integrating Pyscript
+====================
 
 .. autosummary::
    :toctree: generated
