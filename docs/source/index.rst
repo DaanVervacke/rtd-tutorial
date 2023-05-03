@@ -1,9 +1,16 @@
-Home Assistant, ESPHome & Pyscript!
-===================================
+Home Assistant, ESPHome & Pyscript
+==================================
 
-.. note::
+Introduction
+------------
 
-   This project is under active development.
+These docs will explain how to set-up a Home Assistant instance with seamless support for:
+* ESP32 & ESP8266 microcontrollers
+* Python scripts
+
+This guide requires basic knowledge about:
+* `Home Assistant <https://www.home-assistant.io/>`_
+
 
 Contents
 --------
@@ -13,3 +20,7 @@ Contents
    ha
    esphome
    pyscript
+
+.. note::
+
+   This project is under active development.
