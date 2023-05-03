@@ -1,5 +1,5 @@
-Home Assistant
-==============
+ESPHome
+=======
 
 .. autosummary::
    :toctree: generated

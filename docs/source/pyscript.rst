@@ -1,5 +1,5 @@
-Home Assistant
-==============
+Pyscript
+========
 
 .. autosummary::
    :toctree: generated
