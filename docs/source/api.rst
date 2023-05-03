@@ -1,7 +1,5 @@
-API
-===
+HOME ASSISTANT
+==============
 
 .. autosummary::
    :toctree: generated
-
-   lumache
