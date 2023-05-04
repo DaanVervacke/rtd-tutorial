@@ -18,7 +18,7 @@ Installing Home Assistant Container
    ghcr.io/home-assistant/home-assistant:stable
 
 
-<PATH_TO_YOUR_CONFIG> points at the folder where you want to store your configuration.
+*<PATH_TO_YOUR_CONFIG>* points at the folder where you want to store your configuration.
 
 .. _haexposingdevices:
 
