@@ -1,5 +1,32 @@
 Setting up ESPHome
-==================
+=========================
+
+.. _esphomeinstallation:
+
+Installing ESPHome Container
+-----------------------------------
+
+Open up your favourite terminal. We'll start by pulling the ESPHome Docker image.
+
+.. code:: bash
+
+   docker pull ghcr.io/esphome/esphome
+
+Connect your ESP32/ESP8266 to your device via USB.
+
+Now let’s setup a configuration file. 
+Fortunately, ESPHome has a friendly setup wizard that will guide you through creating your first configuration file. 
+For example, if you want to create a configuration file called ``myfirstconfig.yaml``:
+
+.. code:: bash
+
+   docker run \
+      --rm \
+      -v "${PWD}":/config \
+      -it ghcr.io/esphome/esphome \
+      wizard \
+      myfirstconfig.yaml
+
 
 .. autosummary::
    :toctree: generated
