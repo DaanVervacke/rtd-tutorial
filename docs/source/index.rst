@@ -28,7 +28,6 @@ This guide requires basic knowledge about:
 .. note::
 
    **Prerequisites**
-
    This guide assumes that you already have an operating system setup and a container runtime installed (like Docker).
    
 It's recommend to follow the table of contents order, **step by step**.
