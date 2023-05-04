@@ -38,7 +38,7 @@ In order to use Zigbee or other integrations that require access to devices, you
 Accessing Home Assistant
 ------------------------
 
-Once the Home Assistant Container is running, Home Assistant should be accessible using **http://<hostname-or-hostipv4>:<YOUR_PREFERRED_PORT>** (replace with the hostname/IP of the system and your preferred port, 8123 by default).
+Once the Home Assistant Container is running, Home Assistant should be accessible using **http://<HOSTNAME_OR_IP>:<YOUR_PREFERRED_PORT>** (replace with the hostname/IP of the system and your preferred port, 8123 by default).
 
 .. autosummary::
    :toctree: generated
