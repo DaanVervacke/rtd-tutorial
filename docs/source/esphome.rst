@@ -38,7 +38,14 @@ Let's go over each step.
    
    .. image:: images/esphome_step1.png
 
-2. 
+2. Pick your microcontroller model, in our case: *ESP32*.
+
+   .. image:: images/esphome_step2.png
+
+3. Pick your board, if you're unsure about your boardtype please consult the following page:
+   https://docs.platformio.org/en/latest/platforms/espressif32.html#boards
+
+   
 
 .. autosummary::
    :toctree: generated
