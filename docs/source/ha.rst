@@ -6,6 +6,8 @@ Setting up Home Assistant
 Installing Home Assistant Container
 -----------------------------------
 
+Open up your favourite terminal and enter the following command:
+
 .. code:: bash
 
    docker run -d \
@@ -19,6 +21,8 @@ Installing Home Assistant Container
 
 
 *<PATH_TO_YOUR_CONFIG>* points at the folder where you want to store your configuration.
+
+The default webportal port is 8123. Specify ``--publish 8123:<YOUR_PREFERRED_PORT>`` to use a custom port.
 
 .. _haexposingdevices:
 
