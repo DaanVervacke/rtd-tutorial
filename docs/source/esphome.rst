@@ -32,6 +32,12 @@ If all goes well you'll be greated by this screen:
 .. image:: images/esphome_intro.png
    :alt: ESPHome intro
 
+Let's go over each step.
+
+1. Choose a name for your ESPHome node, we'll go with *myfirstnode*
+   .. image:: images/esphome_step1.png
+      
+2. 
 
 .. autosummary::
    :toctree: generated
