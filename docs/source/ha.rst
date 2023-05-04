@@ -1,14 +1,10 @@
 Setting up Home Assistant
 =========================
 
-.. _haintroduction:
+.. _hainstallation:
 
 Installing Home Assistant Container
 -----------------------------------
-
-.. note::
-
-   <PATH_TO_YOUR_CONFIG> points at the folder where you want to store your configuration.
 
 .. code:: bash
 
@@ -22,7 +18,21 @@ Installing Home Assistant Container
    ghcr.io/home-assistant/home-assistant:stable
 
 
-Once the Home Assistant Container is running Home Assistant should be accessible using http://<host>:8123 (replace with the hostname or IP of the system).
+<PATH_TO_YOUR_CONFIG> points at the folder where you want to store your configuration.
+
+.. _haexposingdevices:
+
+Exposing devices
+----------------
+
+In order to use Zigbee or other integrations that require access to devices, you need to map the appropriate device into the container
+
+.. code:: bash
+
+   docker run ... --device /dev/ttyUSB0:/dev/ttyUSB0 ...
+
+
+Once the Home Assistant Container is running Home Assistant should be accessible using **http://<host>:8123** (replace with the hostname or IP of the system).
 
 .. autosummary::
    :toctree: generated
