@@ -21,11 +21,16 @@ For example, if you want to create a configuration file called ``myfirstconfig.y
 .. code:: bash
 
    docker run \
-      --rm \
-      -v "${PWD}":/config \
-      -it ghcr.io/esphome/esphome \
-      wizard \
-      myfirstconfig.yaml
+   --rm \
+   -v "${PWD}":/config \
+   -it ghcr.io/esphome/esphome \
+   wizard \
+   myfirstconfig.yaml
+
+If all goes well you'll be greated by this screen:
+
+.. image:: images/esphome_intro.png
+   :alt: ESPHome intro
 
 
 .. autosummary::

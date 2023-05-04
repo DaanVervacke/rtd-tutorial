@@ -11,13 +11,13 @@ Open up your favourite terminal and enter the following command:
 .. code:: bash
 
    docker run -d \
-      --name homeassistant \
-      --privileged \
-      --restart=unless-stopped \
-      -e TZ=Europe/Brussels \
-      -v /<PATH_TO_YOUR_CONFIG>:/config \
-      --network=host \
-      ghcr.io/home-assistant/home-assistant:stable
+   --name homeassistant \
+   --privileged \
+   --restart=unless-stopped \
+   -e TZ=Europe/Brussels \
+   -v /<PATH_TO_YOUR_CONFIG>:/config \
+   --network=host \
+   ghcr.io/home-assistant/home-assistant:stable
 
 
 *<PATH_TO_YOUR_CONFIG>* points at the folder where you want to store your configuration.
