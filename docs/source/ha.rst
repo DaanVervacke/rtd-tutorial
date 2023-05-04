@@ -7,6 +7,7 @@ Installing Home Assistant Container
 -----------------------------------
 
 .. code:: bash
+   
    docker run -d
 
 .. autosummary::
