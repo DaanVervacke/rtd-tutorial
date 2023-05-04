@@ -31,8 +31,10 @@ In order to use Zigbee or other integrations that require access to devices, you
 
    docker run ... --device /dev/ttyUSB0:/dev/ttyUSB0 ...
 
+Accessing Home Assistant
+------------------------
 
-Once the Home Assistant Container is running Home Assistant should be accessible using **http://<host>:8123** (replace with the hostname or IP of the system).
+Once the Home Assistant Container is running, Home Assistant should be accessible using **http://<hostname-or-hostipv4>:8123** (replace with the hostname or IP of the system).
 
 .. autosummary::
    :toctree: generated
