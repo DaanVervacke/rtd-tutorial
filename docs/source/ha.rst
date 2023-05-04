@@ -25,7 +25,7 @@ Installing Home Assistant Container
 Exposing devices
 ----------------
 
-In order to use Zigbee or other integrations that require access to devices, you need to map the appropriate device into the container
+In order to use Zigbee or other integrations that require access to devices, you need to map the appropriate device into the container.
 
 .. code:: bash
 
