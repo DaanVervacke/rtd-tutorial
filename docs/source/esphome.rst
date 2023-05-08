@@ -43,6 +43,7 @@ Let's go over each step.
    
    .. image:: images/esphome_step1.png
       :alt: Step 1
+      
 |
 
 2. Pick your microcontroller model, in our case: *ESP32*.
