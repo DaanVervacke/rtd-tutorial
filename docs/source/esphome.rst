@@ -43,14 +43,20 @@ Let's go over each step.
    
    .. image:: images/esphome_step1.png
 
+::
+
 2. Pick your microcontroller model, in our case: *ESP32*.
 
    .. image:: images/esphome_step2.png
+
+::
 
 3. Pick your board, if you're unsure about your boardtype please consult the following page:
    https://docs.platformio.org/en/latest/platforms/espressif32.html#boards, in our case: *featheresp32*.
 
    .. image:: images/esphome_step3.png
+
+::
 
 4. Configure wireless network access by entering your SSID and password.
    
@@ -58,9 +64,13 @@ Let's go over each step.
 
    .. image:: images/esphome_step5.png
 
+::
+
 5. Disable OTA firmware updates by pressing ENTER.
 
    .. image:: images/esphome_step6.png
+
+::
 
 This wizard should have created a new file in your working directory called *myfirstconfig.yaml*.
 
