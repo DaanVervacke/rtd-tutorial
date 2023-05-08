@@ -31,6 +31,14 @@ This guide requires basic knowledge about:
    
 It's recommend to follow the table of contents order, **step by step**.
 
+.. _mainconnections:
+
+Connections
+--------
+
+.. image:: images/connections.png
+
+
 .. _maincontents:
 
 Contents
