@@ -33,7 +33,7 @@ Connections
 -----------
 
 The goal of this guide is to create a simple game (Simon Says) that utilizes HA, our ESP32 and some Philips Hue lights.
-Please check out the full schematic below:
+Please check out the full schematic below.
 
 .. image:: images/connections.png
 

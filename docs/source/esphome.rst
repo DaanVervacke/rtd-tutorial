@@ -4,7 +4,7 @@ Setting up ESPHome
 .. _esphomeinstallation:
 
 Installing ESPHome Container
------------------------------------
+----------------------------
 
 Open up your favourite terminal. We'll start by pulling the ESPHome Docker image.
 
@@ -26,6 +26,11 @@ For example, if you want to create a configuration file called ``myfirstconfig.y
    -it ghcr.io/esphome/esphome \
    wizard \
    myfirstconfig.yaml
+
+.. _esphomeconfiguration:
+
+Configure ESPHome
+-----------------
 
 If all goes well you'll be greated by this screen:
 
