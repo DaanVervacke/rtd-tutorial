@@ -42,7 +42,7 @@ Let's go over each step.
 1. Choose a name for your ESPHome node, we'll go with *myfirstnode*
    
    .. image:: images/esphome_step1.png
-
+      :alt: Step 1
 |
 
 2. Pick your microcontroller model, in our case: *ESP32*.
