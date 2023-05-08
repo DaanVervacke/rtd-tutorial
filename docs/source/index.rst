@@ -16,7 +16,6 @@ This will allow us to:
 - Configure ESP8266/ESP32 microcontrollers by simple yet powerful configuration files and control them remotely through Home Assistant.
 - Write Python functions and scripts that can implement a wide range of Home Assistant automation, logic and triggers.  
 
-
 This guide requires basic knowledge about:
 
 - Linux & Bash
@@ -24,20 +23,21 @@ This guide requires basic knowledge about:
 - `Home Assistant <https://www.home-assistant.io/>`_
 - ESP32 GPIO pins
 
-
 .. note::
 
    This guide assumes that you already have an operating system setup and a container runtime installed (like Docker).
-   
-It's recommend to follow the table of contents order, **step by step**.
 
 .. _mainconnections:
 
 Connections
 -----------
 
+The goal of this guide is to create a simple game (Simon Says) that utilizes HA, our ESP32 and some Philips Hue lights.
+Please check out the full schematic below:
+
 .. image:: images/connections.png
 
+It's recommend to follow the table of contents order, **step by step**.
 
 .. _maincontents:
 
