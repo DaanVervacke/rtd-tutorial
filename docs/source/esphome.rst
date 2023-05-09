@@ -75,5 +75,39 @@ Let's go over each step.
 
 This wizard should have created a new file in your working directory called ``myfirstconfig.yaml``.
 
+.. _esphomebasicswitch:
+
+Adding a basic switch
+---------------------
+
+| To test out our configuration file we can add a simple switch to one of our GPIO pins.
+| Open up ``myfirstconfig.yaml`` in your favourite text-editor and the following lines.
+
+.. code:: bash
+
+   switch:
+     - platform: gpio
+     name: "Light switch 1"
+     pin: 5
+
+.. _esphomefirstrun:
+
+Running ESPHome
+---------------------
+
+We're now ready to run ESPHome. Simply plug in the device via USB and type the following command.
+
+.. code:: bash
+
+   docker run \
+   --rm \
+   --privileged \
+   -v "${PWD}":/config \
+   --device=/dev/ttyUSB0 \
+   -it ghcr.io/esphome/esphome \
+   run \
+   myfirstconfig.yaml
+
+
 .. autosummary::
    :toctree: generated
