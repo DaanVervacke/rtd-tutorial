@@ -80,7 +80,7 @@ This wizard should have created a new file in your working directory called ``my
 .. _esphomefirstrun:
 
 Running ESPHome
----------------------
+---------------
 
 | To test out our configuration file we can add a simple switch to one of our GPIO pins.
 | Open up ``myfirstconfig.yaml`` in your favourite text-editor and the following lines.
@@ -113,6 +113,15 @@ We're now ready to run ESPHome. Simply plug in the device via USB and type the f
 | If all goes well you should be able to find your ESP32 listed in the Home Assistant device list.
 
    .. image:: images/esphome_step8.png
+
+Navigate to the Entities tab and search for *"Light switch 1"*. It should appear in the list.
+
+   .. image:: images/esphome_step9.png
+
+.. _esphomedashboard:
+
+ESPHome dashboard
+-----------------
 
 .. autosummary::
    :toctree: generated
