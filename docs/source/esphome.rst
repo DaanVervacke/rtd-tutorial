@@ -65,9 +65,21 @@ Let's go over each step.
 
 This wizard should have created a new file in your working directory called ``myfirstconfig.yaml``.
 
-.. _esphomebasicswitch:
+| Optionally, you can provide a static IP for your node.
+| Open up ``myfirstconfig.yaml`` in your favourite text-editor and the following lines.
 
-Adding a basic switch
+.. code:: bash
+
+   wifi:
+      manual_ip:
+         static_ip: 192.168.0.123
+         gateway: 192.168.0.1
+         subnet: 255.255.255.0
+
+
+.. _esphomefirstrun:
+
+Running ESPHome
 ---------------------
 
 | To test out our configuration file we can add a simple switch to one of our GPIO pins.
@@ -79,11 +91,6 @@ Adding a basic switch
      - platform: gpio
      name: "Light switch 1"
      pin: 5
-
-.. _esphomefirstrun:
-
-Running ESPHome
----------------------
 
 We're now ready to run ESPHome. Simply plug in the device via USB and type the following command.
 
@@ -99,7 +106,11 @@ We're now ready to run ESPHome. Simply plug in the device via USB and type the f
    myfirstconfig.yaml
 
 | You should see ESPHome validating the configuration and telling you about potential problems. 
-| Then ESPHome will proceed to compile and upload the custom firmware. 
+| Then ESPHome will proceed to compile and upload the custom firmware.
+| Pick options
+
+
+
 | You will also see that ESPHome created a new folder with the name of your node. 
 | This is a new PlatformIO project that you can modify afterwards and play around with.
 
