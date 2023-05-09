@@ -108,6 +108,10 @@ We're now ready to run ESPHome. Simply plug in the device via USB and type the f
    run \
    myfirstconfig.yaml
 
+| You should see ESPHome validating the configuration and telling you about potential problems. 
+| Then ESPHome will proceed to compile and upload the custom firmware. 
+| You will also see that ESPHome created a new folder with the name of your node. 
+| This is a new PlatformIO project that you can modify afterwards and play around with.
 
 .. autosummary::
    :toctree: generated
