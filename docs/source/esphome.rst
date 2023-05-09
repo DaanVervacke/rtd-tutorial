@@ -110,6 +110,9 @@ We're now ready to run ESPHome. Simply plug in the device via USB and type the f
 
    .. image:: images/esphome_step7.png
 
+| If all goes well you should be able to find your ESP32 listed in the Home Assistant device list.
+
+   .. image:: images/esphome_step8.png
 
 .. autosummary::
    :toctree: generated
