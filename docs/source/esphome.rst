@@ -72,9 +72,9 @@ This wizard should have created a new file in your working directory called ``my
 
    wifi:
       manual_ip:
-         static_ip: 192.168.0.123
-         gateway: 192.168.0.1
-         subnet: 255.255.255.0
+         static_ip: *<YOUR_STATIC_IP>*
+         gateway: *<YOUR_GATEWAY_IP>*
+         subnet: *<YOUR_STATIC_IP>*
 
 
 .. _esphomefirstrun:
