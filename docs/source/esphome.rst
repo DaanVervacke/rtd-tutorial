@@ -105,7 +105,7 @@ We're now ready to run ESPHome. Simply plug in the device via USB and type the f
    run \
    myfirstconfig.yaml
 
-| ESPHole will validate your configuration and compile the firmware.
+| ESPHome will validate your configuration and compile the firmware.
 | Please pick the first option, since this is the first time we're uploading the firmware.
 
    .. image:: images/esphome_step7.png
@@ -125,3 +125,17 @@ ESPHome dashboard
 
 .. autosummary::
    :toctree: generated
+
+| ESPHome dashboard allows us to quickly send new a new or updated configuration to our ESP32 instead of editing the .yaml file locally.
+| To enable the ESPHome dashboard, start ESPHome with the following command.
+
+.. code:: bash
+
+   docker run \
+   --rm \
+   --net=host \
+   -v "${PWD}":/config \
+   -it ghcr.io/esphome/esphome
+
+| If all goes well you should be able to access the ESPHome dashboard using **http://<HOSTNAME_OR_IP>:<YOUR_PREFERRED_PORT>** (replace with the hostname/IP of the system and your preferred port, 6052 by default).
+
