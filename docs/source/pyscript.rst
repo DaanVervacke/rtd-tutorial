@@ -52,9 +52,27 @@ Configure Pyscript
 
 .. image:: images/pyscript_integration_search.png
 
+| Click on the Pyscript Python Scripting integration.
 | Check the "Allow All Imports?" checkbox and click on "Submit".
 
 .. image:: images/pyscript_config_screen.png
 
+| Restart your Home Assistant instance with the following command.
+
+.. code:: bash
+
+   docker container restart home-assistant
+
+Adding a basic Python script
+----------------------------
+
+| Add files with a suffix of .py in the following directory: <config>/pyscript.
+
+Load/reload a basic Python script
+---------------------------------
+
+| In Home Assistant, navigate to "Developer Tools -> Services".
+| Search for "Pyscript Python scripting: Reload pyscript" and click on "Call Service".
+| This wil reload all your custom Python scripts.
 
 
