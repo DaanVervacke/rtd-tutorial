@@ -41,3 +41,9 @@ Download Pyscript
 .. code:: bash
 
    unzip hass-custom-pyscript.zip
+
+.. _pyscriptconfig:
+
+Configure Pyscript
+------------------
+
