@@ -47,3 +47,14 @@ Download Pyscript
 Configure Pyscript
 ------------------
 
+| Open up your Home Assistant instance and navigate to Settings -> Devices & Service -> + Add Integration.
+| Search for "Pyscript Python Scripting". Your newly installed integration should show up.
+
+.. image:: images/pyscript_integration_search.png
+
+| Check the "Allow All Imports?" checkbox and click on "Submit".
+
+.. image:: images/pyscript_config_screen.png
+
+   
+
