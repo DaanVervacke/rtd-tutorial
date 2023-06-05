@@ -72,6 +72,9 @@ Load/reload a basic Python script
 ---------------------------------
 
 | In Home Assistant, navigate to "Developer Tools -> Services".
+
+.. image:: images/reload_service.png
+
 | Search for "Pyscript Python scripting: Reload pyscript" and click on "Call Service".
 | This wil reload all your custom Python scripts.
 
